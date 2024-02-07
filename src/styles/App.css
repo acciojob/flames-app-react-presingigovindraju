@@ -1,12 +1,23 @@
-h1 {
-    color: #27aedb;
+#main {
+    margin: 0 auto;
+    width: 50%;
     text-align: center;
-    }
-    
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+input[type="text"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 1.2em;
 }
